@@ -68,10 +68,7 @@ h1, h2 {
 }
 </style>
 
-
-
 # 📰 Últimos Posts
-
 
 <div class="card-grid">
 {% for post in site.posts %}
