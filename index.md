@@ -3,7 +3,6 @@ layout: default
 title: Página Inicial
 ---
 
-# 📰 Últimos Posts
 <style>
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -68,6 +67,11 @@ h1, h2 {
   color: #555;
 }
 </style>
+
+
+
+# 📰 Últimos Posts
+
 
 <div class="card-grid">
 {% for post in site.posts %}
