@@ -1,5 +1,8 @@
-title: teste
-description: teste
-baseurl: ""
-url: "https://minerativos2.github.io/site"
+title: MinerAtivos
+description: Análises e insights do mercado de ações brasileiro
 theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
