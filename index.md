@@ -6,7 +6,7 @@ description: "Análises e insights do mercado de ações brasileiro, com foco em
 
 <!-- Bootstrap Container -->
 <div class="container py-4">
-  <!-- Navbar -->
+  <!-- Navbar 
   <header class="sticky-top">
     <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
       <div class="container-fluid">
@@ -32,7 +32,7 @@ description: "Análises e insights do mercado de ações brasileiro, com foco em
         </div>
       </div>
     </nav>
-  </header>
+  </header>-->
 
   <!-- Introducao -->
   <div class="mt-4 mb-5">
