@@ -52,7 +52,7 @@ description: "Análises e insights do mercado de ações brasileiro, com foco em
           <h5 class="card-title fw-bold">{{ post.title }}</h5>
           <p class="card-text text-muted small">{{ post.date | date: "%d/%m/%Y" }}</p>
           <p class="card-text">{{ post.excerpt | strip_html | truncate: 130 }}</p>
-          <a href="{{ post.url | relative_url }}" class="btn btn-outline-primary mt-auto stretched-link">Leia mais</a>
+          <a href="{{ post.url | relative_url }}" class="btn btn-outline-primary mt-auto stretched-link">{{ post.date | date: "%d/%m/%Y" }}</a>
         </div>
       </div>
     </div>
