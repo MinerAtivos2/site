@@ -46,7 +46,7 @@ description: "Análises e insights do mercado de ações brasileiro, com foco em
     <div class="col-lg-4 col-md-6 mb-4">
       <div class="card h-100 shadow-sm border-0">
         {% if post.image %}
-        <img src="{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
+        <img src="{{ site.baseurl }}/img/{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
         {% endif %}
         <div class="card-body d-flex flex-column">
           <h5 class="card-title fw-bold">{{ post.title }}</h5>
